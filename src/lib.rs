@@ -24,8 +24,8 @@ use typeable::Typeable;
 /// of static checking at both the instantiation site and the handling
 /// site of the error.
 ///
-/// In other cases, being generic over `std::error::Error` may be correct
-/// - usually for logging errors or in other places where an error is
+/// In other cases, being generic over `std::error::Error` may be correct -
+/// usually for logging errors or in other places where an error is
 /// used as *input*.
 ///
 /// Now, a motivating example for this trait, which doesn't fall under
